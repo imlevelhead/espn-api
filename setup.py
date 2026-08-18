@@ -15,7 +15,7 @@ setup(
     description='ESPN API',
     long_description=readme,
     long_description_content_type="text/markdown",
-    install_requires=['requests>=2.0.0,<=2.31.0', 'urllib3<=2.2.3'],
+    install_requires=['requests>=2.32.4,<2.33.0', 'urllib3>=2.2.3,<2.3.0', 'idna>=3.12,<3.13'],
     setup_requires=['nose>=1.0'],
     test_suite='nose.collector',
     tests_require=['nose', 'requests_mock', 'coverage'],
