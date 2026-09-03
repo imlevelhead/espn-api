@@ -8,7 +8,22 @@ positional scarcity.
 It's a co-pilot, not an autopilot: the ESPN API is read-only, so it tells you
 who to click; you make the pick.
 
-## Quick start
+## Easiest: run it in your browser (no install) — Google Colab
+
+You don't need Python or a terminal. Open the notebook in Google Colab (free,
+runs on Google's servers) and just fill in your league details:
+
+**[▶ Open in Colab](https://colab.research.google.com/github/imlevelhead/espn-api/blob/claude/repo-draft-help-h3i9nw/examples/draft_assistant_colab.ipynb)**
+
+Then: run Cell 1 (setup), fill in your league id / year / cookies / team in
+Cell 2, run Cell 3, and leave the tab open during your draft — it refreshes
+itself. Stop it with the ⏹ button.
+
+> Privacy: your ESPN cookies stay in your own Colab session. Don't share the
+> notebook with cookies filled in, and use *Runtime → Disconnect and delete
+> runtime* when you're done.
+
+## Quick start (running locally)
 
 1. **Install** (from the repo root):
    ```bash
