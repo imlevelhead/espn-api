@@ -14,3 +14,5 @@ build
 dist
 env
 coverage*
+# espn-draft skill: local config/cookies/state
+.espn-draft/
